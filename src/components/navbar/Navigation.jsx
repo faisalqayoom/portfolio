@@ -12,7 +12,7 @@ const Navigation = () => {
           <Nav.Link as={Link} to="/">
             Home
           </Nav.Link>
-          <Nav.Link as={Link} to="/about">
+          <Nav.Link as={Link} to="/about/some">
             About
           </Nav.Link>
           <Nav.Link as={Link} to="/contact">
