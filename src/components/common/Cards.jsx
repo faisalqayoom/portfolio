@@ -21,6 +21,7 @@ const Cards = () => {
             </div>
           );
         })}
+      console.log("hello")
     </div>
   );
 };
