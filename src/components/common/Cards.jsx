@@ -2,14 +2,15 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "./Button";
 import { CardItems } from "../../utils/card-items";
+import "./cards.scss";
 
 const Cards = () => {
   return (
     <div className="row m-5">
       {CardItems &&
-        CardItems.map((item) => {
+        CardItems.map((item, i) => {
           return (
-            <div className="col-3">
+            <div key={i} className="col-3 cards">
               <Card>
                 <Card.Img variant="top" src={item.imgSrc} />
                 <Card.Body>
